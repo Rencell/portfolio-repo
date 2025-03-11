@@ -5,9 +5,9 @@ w-fit sm:w-8<script setup>
 
     <div class="grid grid-cols-12 gap-4 text-white h-full items-center">
         <div class="col-span-12 md:col-span-6 xl:col-span-6">
-            <p class="text-7xl font-bold pb-10 motion-preset-slide-down sm:motion-preset-slide-right">Contact Me</p>
+            <p class="text-5xl sm:text-7xl font-bold pb-10 motion-preset-slide-down sm:motion-preset-slide-right">Contact Me</p>
 
-            <p class="text-lg pb-3  motion-preset-slide-down sm:motion-preset-slide-right "><i class="bi bi-envelope-fill text-ternary text-xl"></i> Rencelltobelonia67@gmail.com</p>
+            <p class="text-sm sm:text-lg pb-3  motion-preset-slide-down sm:motion-preset-slide-right "><i class="bi bi-envelope-fill text-ternary text-xl"></i> Rencelltobelonia67@gmail.com</p>
             <p class=" motion-preset-slide-down sm:motion-preset-slide-right "><i class="bi bi-telephone-fill text-ternary text-xl"></i> 0994-719-6625</p>
             <div class="text-3xl flex gap-5 text-ternary pt-10 motion-preset-slide-down sm:motion-preset-slide-right">
                 <i class="bi bi-facebook "></i>
