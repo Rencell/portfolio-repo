@@ -3,6 +3,7 @@ import { onMounted, ref } from 'vue';
 const relativeElipsis = "after:content-[' s'] after:p-1.5 after:sm:p-2 after:absolute after:top-0 after:-left-8 after:bg-ternary after:rounded-full"
 
 const showAnimation = ref(true)
+const iconColor = ref('D652E9')
 
 onMounted(() =>{
     const snapelem = document.querySelectorAll(".snap-center");
@@ -42,28 +43,28 @@ onMounted(() =>{
             <div class="w-full sm:w-sm">
                 <div class="grid grid-cols-5 sm:grid-cols-6 gap-4 motion-preset-focus ">
                     <div class="p-3 rounded-full bg-primary w-10 sm:w-fit">
-                        <img class="w-8" src="https://cdn.simpleicons.org/html5/9b59b6" />
+                        <img class="w-8" :src="'https://cdn.simpleicons.org/html5/' + iconColor" />
                     </div>
                     <div class="p-3 rounded-full bg-primary w-10 sm:w-fit">
-                        <img class="w-8" src="https://cdn.simpleicons.org/css/9b59b6" />
+                        <img class="w-8" :src="'https://cdn.simpleicons.org/css/' + iconColor" />
                     </div>
                     <div class="p-3 rounded-full bg-primary w-10 sm:w-fit">
-                        <img class="w-8" src="https://cdn.simpleicons.org/javascript/9b59b6" />
+                        <img class="w-8" :src="'https://cdn.simpleicons.org/javascript/' + iconColor" />
                     </div>
                     <div class="p-3 rounded-full bg-primary w-10 sm:w-fit">
-                        <img class="w-8" src="https://cdn.simpleicons.org/Python/9b59b6" />
+                        <img class="w-8" :src="'https://cdn.simpleicons.org/Python/' + iconColor" />
                     </div>
                     <div class="p-3 rounded-full bg-primary w-10 sm:w-fit">
-                        <img class="w-8" src="https://cdn.simpleicons.org/tailwindcss/9b59b6" />
+                        <img class="w-8" :src="'https://cdn.simpleicons.org/tailwindcss/' + iconColor" />
                     </div>
                     <div class="p-3 rounded-full bg-primary w-10 sm:w-fit">
-                        <img class="w-8" src="https://cdn.simpleicons.org/bootstrap/9b59b6" />
+                        <img class="w-8" :src="'https://cdn.simpleicons.org/bootstrap/' + iconColor" />
                     </div>
                     <div class="p-3 rounded-full bg-primary w-10 sm:w-fit">
-                        <img class="w-8" src="https://cdn.simpleicons.org/php/9b59b6" />
+                        <img class="w-8" :src="'https://cdn.simpleicons.org/php/' + iconColor" />
                     </div>
                     <div class="p-3 rounded-full bg-primary w-10 sm:w-fit">
-                        <img class="w-8" src="https://cdn.simpleicons.org/vuedotjs/9b59b6" />
+                        <img class="w-8" :src="'https://cdn.simpleicons.org/vuedotjs/' + iconColor" />
                     </div>
                 </div>
             </div>

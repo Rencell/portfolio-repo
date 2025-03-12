@@ -13,15 +13,15 @@
                     </div>
 
                     <ul class="flex flex-col gap-9">
-                        <li @click="activeTab = 1" :class="[activeTab == 1 ? 'text-ternary' : 'text-white']"
-                            class="hover:cursor-pointer"><i
-                                class="bi bi-house-fill inline-block w-fit sm:w-8"></i><p class="hidden sm:inline-block">Home</p></li>
-                        <li @click="activeTab = 2" :class="[activeTab == 2 ? 'text-ternary' : 'text-white']"
+                        <li @click="activeTab = 1" :class="[activeTab == 1 ? 'text-ternary drop-shadow-[0px_0px_3px_rgba(214,82,233,1)]' : 'text-white']"
+                            class="hover:cursor-pointer">
+                            <i class="bi bi-house-fill inline-block w-fit sm:w-8 "></i><p class="hidden sm:inline-block">Home</p></li>
+                        <li @click="activeTab = 2" :class="[activeTab == 2 ? 'text-ternary drop-shadow-[0px_0px_3px_rgba(214,82,233,1)]' : 'text-white']"
                             class="hover:cursor-pointer"><i class="bi bi-info-circle-fill inline-block w-fit sm:w-8"></i><p class="hidden sm:inline-block">About</p>
                         </li>
-                        <li @click="activeTab = 3" :class="[activeTab == 3 ? 'text-ternary' : 'text-white']"
+                        <li @click="activeTab = 3" :class="[activeTab == 3 ? 'text-ternary drop-shadow-[0px_0px_3px_rgba(214,82,233,1)]' : 'text-white']"
                             class="hover:cursor-pointer"><i class="bi bi-code-slash inline-block w-fit sm:w-8"></i><p class="hidden sm:inline-block">Projects</p></li>
-                        <li @click="activeTab = 4" :class="[activeTab == 4 ? 'text-ternary' : 'text-white']"
+                        <li @click="activeTab = 4" :class="[activeTab == 4 ? 'text-ternary drop-shadow-[0px_0px_3px_rgba(214,82,233,1)]' : 'text-white']"
                             class="hover:cursor-pointer"><i class="bi bi-telephone-fill inline-block w-fit sm:w-8"></i><p class="hidden sm:inline-block">Contacts</p>
                         </li>
                     </ul>
@@ -31,9 +31,9 @@
             <div class="bg-secondary w-full p-6 sm:p-13 overflow-scroll 
             [&::-webkit-scrollbar]:w-2
             [&::-webkit-scrollbar-track]:rounded-full
-            [&::-webkit-scrollbar-track]:bg-gray-100
             [&::-webkit-scrollbar-thumb]:rounded-full
-            [&::-webkit-scrollbar-thumb]:bg-gray-300
+            [&::-webkit-scrollbar-track]:bg-secondary
+            [&::-webkit-scrollbar-thumb]:bg-ternary
             dark:[&::-webkit-scrollbar-track]:bg-secondary
             dark:[&::-webkit-scrollbar-thumb]:bg-ternary
             snap-y snap-mandatory">
