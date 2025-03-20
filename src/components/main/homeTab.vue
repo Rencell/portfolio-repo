@@ -10,9 +10,6 @@ const toggle = () => {
 
 const total_projects = ref(data.length);
 
-const generate_random_number = ref(
-  parseInt(Math.random() * total_projects.value + 0)
-);
 const preview_image = ref(data[total_projects.value - 1].image);
 
 const showPreview = ref(false);
@@ -21,8 +18,8 @@ const iconColor = ref('D652E9')
 </script>
 
 <template>
-  <div class="grid grid-cols-12 gap-4 text-white motion-preset-fade">
-    <div class="col-span-12 sm:col-span-6 flex flex-col gap-4">
+  <div class="grid grid-auto-fit-xl gap-4 text-white motion-preset-fade">
+    <div class="flex flex-col gap-4">
       <p class="text-4xl font-bold">Hello, Welcome.</p>
       <p class="text-2xl font-bold bg-ternary w-fit px-2 motion-preset-bounce">
         My Portfolio
@@ -40,7 +37,7 @@ const iconColor = ref('D652E9')
         </div>
       </div>
     </div>
-    <div class="col-span-12 sm:col-span-6 bg-primary rounded-xl p-4 motion-preset-slide-right motion-duration-800">
+    <div class="bg-primary rounded-xl p-4 motion-preset-slide-right motion-duration-800">
       <p class="font-bold pb-6 text-xl">About</p>
       <p class="text-overflow-ellipsis sm:text-lg">
         &emsp;&emsp;Hello, I'm a programmer solely focused on backend
@@ -49,7 +46,7 @@ const iconColor = ref('D652E9')
         to my continuous self-improvement.
       </p>
     </div>
-    <div class="col-span-12 sm:col-span-6 bg-primary rounded-xl p-4 motion-preset-slide-right motion-duration-1000">
+    <div class="bg-primary rounded-xl p-4 motion-preset-slide-right motion-duration-1000">
       <p class="font-bold pb-6 text-xl">Latest Project</p>
       <div class="w-full flex justify-center">
         <div class="relative group">
@@ -68,7 +65,7 @@ const iconColor = ref('D652E9')
         </div>
       </div>
     </div>
-    <div class="col-span-12 sm:col-span-6 flex flex-col gap-4">
+    <div class="flex flex-col gap-4">
       <div class="bg-primary rounded-xl grow p-4 motion-preset-slide-right motion-duration-600">
         <p class="font-bold pb-6 text-xl">Current Techstack</p>
 

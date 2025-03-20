@@ -12,3 +12,4 @@
 }
 
 @plugin "tailwindcss-motion";
+@plugin "@shrutibalasa/tailwind-grid-auto-fit";

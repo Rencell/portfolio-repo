@@ -16,7 +16,7 @@ const goToLink = () => {
 
 <template>
 
-    <div class="group col-span-12 md:col-span-12 xl:col-span-6 bg-primary text-white rounded-t-2xl motion-preset-fade  motion-duration-1500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105    ">
+    <div class="group bg-primary text-white rounded-t-2xl motion-preset-fade  motion-duration-1500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105    ">
         
         <div class="relative">
             <slot></slot>

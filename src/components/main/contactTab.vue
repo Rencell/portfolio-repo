@@ -6,8 +6,8 @@
 
 <template>
 
-    <div class="grid grid-cols-12 gap-4 text-white h-full items-center">
-        <div class="col-span-12 md:col-span-6 xl:col-span-6">
+    <div class="grid grid-auto-fit gap-4 text-white h-full items-center">
+        <div>
             <p class="text-5xl sm:text-7xl font-bold pb-10 motion-preset-slide-down sm:motion-preset-slide-right">Contact Me</p>
 
             <p class="text-xs sm:text-lg pb-3  motion-preset-slide-down sm:motion-preset-slide-right "><i class="bi bi-envelope-fill text-ternary sm:text-xl"></i> Rencelltobelonia67@gmail.com</p>
@@ -30,7 +30,7 @@
     
         </div>
     
-        <div class=" grow col-span-12 md:col-span-6 xl:col-span-6 flex flex-col gap-4 motion-preset-slide-down pb-5 sm:pb-0" >
+        <div class=" grow flex flex-col gap-4 motion-preset-slide-down pb-5 sm:pb-0" >
             <input type="text" class="p-4 bg-primary rounded-xl text-xs outline-0 " placeholder="Anonymous Name">
             <input type="text" class="p-4 bg-primary rounded-xl text-xs outline-0 " placeholder="Subject">
             <textarea name="" id="" class="p-4 bg-primary rounded-xl text-xs outline-0" placeholder="Message"></textarea>
