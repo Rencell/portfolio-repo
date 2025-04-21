@@ -28,7 +28,7 @@
                 </div>
 
             </div>
-            <div class="bg-secondary w-full p-6 sm:p-13 overflow-scroll 
+            <div class="bg-secondary w-full px-5 md:px-5 lg:px-13 pt-10 overflow-scroll 
             [&::-webkit-scrollbar]:w-2
             [&::-webkit-scrollbar-track]:rounded-full
             [&::-webkit-scrollbar-thumb]:rounded-full

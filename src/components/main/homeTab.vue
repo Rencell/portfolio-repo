@@ -18,7 +18,7 @@ const iconColor = ref('D652E9')
 </script>
 
 <template>
-  <div class="grid grid-auto-fit-xl gap-4 text-white motion-preset-fade">
+  <div class="grid grid-auto-fit-xl gap-4 text-white motion-preset-fade overflow-hidden">
     <div class="flex flex-col gap-4">
       <p class="text-4xl font-bold">Hello, Welcome.</p>
       <p class="text-2xl font-bold bg-ternary w-fit px-2 motion-preset-bounce">
@@ -40,13 +40,13 @@ const iconColor = ref('D652E9')
     <div class="bg-primary rounded-xl p-4 motion-preset-slide-right motion-duration-800">
       <p class="font-bold pb-6 text-xl">About</p>
       <p class="text-overflow-ellipsis sm:text-lg">
-        &emsp;&emsp;Hello, I'm a programmer solely focused on backend
-        development and somewhat involved in web designing. My goal for every
+        &emsp;&emsp;A programmer solely focused on backend
+        development. My goal for every
         project is to learn something new, and the knowledge gained contributes
         to my continuous self-improvement.
       </p>
     </div>
-    <div class="bg-primary rounded-xl p-4 motion-preset-slide-right motion-duration-1000">
+    <div class="bg-primary rounded-xl p-4 motion-preset-slide-right motion-duration-600">
       <p class="font-bold pb-6 text-xl">Latest Project</p>
       <div class="w-full flex justify-center">
         <div class="relative group">
@@ -98,6 +98,10 @@ const iconColor = ref('D652E9')
       </div>
       <div class="bg-primary rounded-xl grow p-4 motion-preset-slide-right motion-duration-400">
         <p class="font-bold pb-6 text-xl">Contact</p>
+        <div class="flex gap-4 w-full">
+          <input type="text" placeholder="Send me a message..." class="grow bg-secondary text-white outline-none p-3 rounded-xl">
+          <button class="bg-ternary p-3 rounded-xl hover:bg-ternary/60 cursor-pointer">Send</button>
+        </div>
       </div>
     </div>
   </div>

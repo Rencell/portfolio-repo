@@ -7,12 +7,8 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-<<<<<<< HEAD
   base : "/portfolio-repo/",
-=======
-  base: "/portfolio-repo/",
->>>>>>> db4f76d3bef756df4087155ddee10671b245c41d
-  plugins: [
+    plugins: [
     vue(),
     vueDevTools(),
     tailwindcss(),
