@@ -18,7 +18,7 @@ const iconColor = ref('D652E9')
 </script>
 
 <template>
-  <div class="grid grid-auto-fit-xl gap-4 text-white motion-preset-fade overflow-hidden">
+  <div class="grid grid-auto-fit-xl gap-4 text-white motion-preset-fade">
     <div class="flex flex-col gap-4">
       <p class="text-4xl font-bold">Hello, Welcome.</p>
       <p class="text-2xl font-bold bg-ternary w-fit px-2 motion-preset-bounce">
