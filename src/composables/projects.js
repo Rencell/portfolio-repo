@@ -1,7 +1,8 @@
 import RFID from '@/assets/Projects/RFID.png';
 import Point_of_sale_plant from '@/assets/Projects/Point_of_sale_plant.jpg';
 import Point_of_sale_milktea from '@/assets/Projects/Point_of_sale_milktea.jpg';
-import Snake from '@/assets/Projects/Snake.jpg';
+// Vercel (Linux) is case-sensitive; the file is actually named `snake.jpg`
+import Snake from '@/assets/Projects/snake.jpg';
 import GemOdyssey from '@/assets/Projects/GemOdyssey.png';
 import PayrollSystem from '@/assets/Projects/PayrollSystem.png';
 import studentAttendance from '@/assets/Projects/studentAttendance.png';
