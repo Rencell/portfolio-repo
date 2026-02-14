@@ -7,12 +7,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base : "/portfolio/",
-  server: {
-    host: true,
-    // Allow ngrok URLs (both legacy and new free domains).
-    allowedHosts: ['.ngrok-free.dev', '.ngrok.io'],
-  },
+  base : "/",
   plugins: [
     vue(),
     vueDevTools(),
