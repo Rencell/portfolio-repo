@@ -18,10 +18,11 @@ const goToLink = () => {
 
     <div class="group bg-primary text-white rounded-t-2xl motion-preset-fade  motion-duration-1500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105    ">
         
-        <div class="relative">
+        <!-- Constrain the media area so absolute overlays can size against it -->
+        <div class="relative aspect-video overflow-hidden rounded-t-2xl">
             <slot></slot>
 
-            <div @click="goToLink" class="group-hover:flex group-hover:transition-all delay-150 duration-300 ease-in-out hidden rounded-t-2xl transition-all justify-center items-center absolute top-0 w-full h-full  p-3 bg-[rgba(0,0,0,0.5)]">
+            <div @click="goToLink" class="group-hover:flex group-hover:transition-all delay-150 duration-300 ease-in-out hidden rounded-t-2xl transition-all justify-center items-center absolute inset-0 p-3 bg-[rgba(0,0,0,0.5)]">
                 <i class="bi bi-play-circle text-5xl motion-preset-pop "></i>
             </div>
         </div>
